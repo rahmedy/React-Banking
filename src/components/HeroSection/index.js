@@ -30,7 +30,10 @@ const HeroSection = () => {
 				<HeroH1>Future Of Banking</HeroH1>
 				<HeroP>Sign Up And Start Living In The Future</HeroP>
 				<HeroBtnWrapper>
-					<Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+					<Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
+					primary = 'true'
+					dark='true'
+					>
                         Get Started 
                         {hover ? <ArrowForward /> : <ArrowRight />}
                         </Button>
